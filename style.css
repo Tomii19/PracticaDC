@@ -1,0 +1,51 @@
+/*estilos globales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navegacion-usuario{
+    font-size: 20px ;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 10px;
+}
+.navegacion-usuario a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.navegacion-usuario a:hover{
+    text-decoration: underline;
+}
+.encabezado-inferior{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.encabezado-inferior .logo{
+    width: 100px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.navegacion-pagina{
+    display: flex;
+    gap: 20px;
+}
+.navegacion-pagina a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.navegacion-pagina a:hover{
+    color: #ccc
+}
+#importante{
+    color: red;
+}
